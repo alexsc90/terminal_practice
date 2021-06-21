@@ -1,6 +1,6 @@
 # Terminal & command line practice
 ## Introduction
-En este repositorio encontrarás un listado de los comandos revisados dentro del curso de Introducción a la Terminal y Líneas de comandos de [platzi](https://platzi.com/clases/terminal/) 
+En este repositorio encontrarás un listado de los comandos revisados dentro del curso de Introducción a la Terminal y Líneas de comandos de [platzi](https://platzi.com/clases/terminal/). Estos comandos funcionan desde la terminal si contamos con un ambiente de desarrollo en Linux...
 
 ## Contents 
 
