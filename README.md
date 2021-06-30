@@ -1,31 +1,29 @@
 # Terminal & command line practice
 ## Introduction
-En este repositorio encontrarás un listado de los comandos revisados dentro del curso de Introducción a la Terminal y Líneas de comandos de [platzi](https://platzi.com/clases/terminal/). Estos comandos los podemos utilizar si contamos con un entorno de desarrollo en Linux. 
+En este repositorio encontrarás un listado de los comandos revisados dentro del curso de Introducción a la Terminal y Líneas de comandos de [platzi](https://platzi.com/clases/terminal/). Estos comandos los podemos utilizar si contamos con un entorno de desarrollo en Linux. En este caso, yo he utilizado git bash, que viene por default al instalar [git](https://git-scm.com/doc).
 
 ## Contents 
 
-| Command      | Description                         |
-| ------------- | ------------------------------ |
-| `ls`     | Listado de archivos del directorio. |
-| `cd`    | Cambiar de un directorio a otro. | 
-| `clear` ó `Ctrl + L`   | Limpiar la terminal. |
-| `pwd` | Ruta de trabajo actual. |
-| `file` | Describe el tipo de archivo. |
-| `tree`    | Ver achivos desplegados por niveles. |
-| `mkdir`   | Crear un directorio. |
-| `touch`   | Crear un archivo. |
-| `cp`  | Copiar un archivo. |
-| `mv`  | Mover un archivo de un directorio a otro, o renombrar un archivo o directorio. |
-| `rm`  | Remover un archivo. |
+| Command      |                                              Description                         | Sinopsis             |
+| ------------- | ------------------------------ | ----------------------------------------
+| [`ls`](https://man7.org/linux/man-pages/man1/ls.1.html)     | Listado de archivos del directorio. | ls [OPTION]... [FILE]... |
+| [`cd`](https://linuxcommand.org/lc3_man_pages/cdh.html)    | Cambiar de un directorio a otro. | cd \[directory]         |
+| [`pwd`](https://man7.org/linux/man-pages/man1/pwd.1.html) | Ruta de trabajo actual. | pwd [OPTION]...   |
+| [`file`](https://man7.org/linux/man-pages/man1/file.1.html) | Describe el tipo de archivo. | file [OPTION]...     |
+| [`tree`](https://linux.die.net/man/1/tree)    | Ver achivos desplegados por niveles. |  tree [OPTION]... [directory]    |
+| [`mkdir`](https://man7.org/linux/man-pages/man1/mkdir.1.html)   | Crear un directorio. |    mkdir [OPTION]... DIRECTORY...    |
+| [`touch`](https://man7.org/linux/man-pages/man1/touch.1.html)   | Crear un archivo. |   touch [OPTION]... FILE...   |
+| [`cp`](https://man7.org/linux/man-pages/man1/cp.1.html)  | Copiar un archivo. |   cp [OPTION]... SOURCE... DIRECTORY    |
+| [`mv`](https://linux.die.net/man/1/mv)  | Mover un archivo de un directorio a otro, o renombrar un archivo o directorio. |    mv [OPTION]... SOURCE... DIRECTORY  |
+| [`rm`](https://man7.org/linux/man-pages/man1/rm.1.html)  | Remover un archivo. |   rm [OPTION]... [FILE]...    |
 | `head`    | Muestra las primeras 10 líneas de un archivo. |
 | `tail`    | Muestra las últimas 10 líneas de un archivo. |
 | `less`    | Muestra todo el archivo de texto. |
 | `open`    | Abrir un archivo desde la terminal. |
-| `Ctrl + C`    | Detiene todo proceso ejecutándose en la terminal. |
 | `type`    | Tipo de comando. |
-| `alias`   | Crear un comando (temporalmente). |
-| `help`    | Muestra las utilidades que tiene un comando específico. |
-| `man` | Manual de usuario de un comando. |
+| [`alias`](https://man7.org/linux/man-pages/man1/alias.1p.html)   | Crear un comando (temporalmente). |   alias [alias-name[=string]...]    |
+| [`help`](https://linuxcommand.org/lc3_man_pages/helph.html)    | Muestra las utilidades que tiene un comando específico. |  help [-dms] [pattern ...]   |
+| [`man`](https://man7.org/linux/man-pages/man1/man.1.html) | Manual de usuario de un comando. |    man [man options] [[section] page ...] ...  |
 | `info`    | Información de un comando. |
 | `whatis` | Descripción breve de la funcionalidad del comando. |
 | `echo`    | Genera un standard output de cualquier texto que escribamos en la termina |
