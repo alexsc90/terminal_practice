@@ -16,27 +16,27 @@ En este repositorio encontrarás un listado de los comandos revisados dentro del
 | [`cp`](https://man7.org/linux/man-pages/man1/cp.1.html)  | Copiar un archivo. |   cp [OPTION]... SOURCE... DIRECTORY    |
 | [`mv`](https://linux.die.net/man/1/mv)  | Mover un archivo de un directorio a otro, o renombrar un archivo o directorio. |    mv [OPTION]... SOURCE... DIRECTORY  |
 | [`rm`](https://man7.org/linux/man-pages/man1/rm.1.html)  | Remover un archivo. |   rm [OPTION]... [FILE]...    |
-| `head`    | Muestra las primeras 10 líneas de un archivo. |
+| [`head`](https://man7.org/linux/man-pages/man1/head.1.html)    | Muestra las primeras 10 líneas de un archivo. |   head [OPTION]... [FILE]...    |
 | `tail`    | Muestra las últimas 10 líneas de un archivo. |
-| `less`    | Muestra todo el archivo de texto. |
-| `open`    | Abrir un archivo desde la terminal. |
-| `type`    | Tipo de comando. |
+| [`less`](https://man7.org/linux/man-pages/man1/less.1.html)    | Muestra todo el archivo de texto. |    less -?       |   
+| `open`    | Abrir un archivo desde la terminal. |     |
+| `type`    | Tipo de comando. |      |
 | [`alias`](https://man7.org/linux/man-pages/man1/alias.1p.html)   | Crear un comando (temporalmente). |   alias [alias-name[=string]...]    |
 | [`help`](https://linuxcommand.org/lc3_man_pages/helph.html)    | Muestra las utilidades que tiene un comando específico. |  help [-dms] [pattern ...]   |
 | [`man`](https://man7.org/linux/man-pages/man1/man.1.html) | Manual de usuario de un comando. |    man [man options] [[section] page ...] ...  |
 | `info`    | Información de un comando. |
 | `whatis` | Descripción breve de la funcionalidad del comando. |
-| `echo`    | Genera un standard output de cualquier texto que escribamos en la termina |
-| `cat` | Concatenar los outputs de dos o más archivos en la terminal. |
+| [`echo`](https://linuxcommand.org/lc3_man_pages/echoh.html)    | Genera un standard output de cualquier texto que escribamos en la termina |   echo [-neE] [arg ...]   |
+| [`cat`](https://man7.org/linux/man-pages/man1/cat.1.html) | Concatenar los outputs de dos o más archivos en la terminal. |    cat [OPTION]... [FILE]...   |
 | `tee` | Nos permite guardar la redirección de un archivo. |
-| `chmod`  | Cambiar los permisos de un archivo. |
+| [`chmod`](https://linux.die.net/man/1/chmod)  | Cambiar los permisos de un archivo. |
 | `whoami`  | Conocer el usuario. |
 | `su` | Cambiar de usuario. |
 | `sudo` | Otorga permisos de administrador. |
 | `psswd` | Cambar contraseña. |
 | `printenv` | Muestra variables de entorno. |
-| `which`   | Encontrar la ruta de nuestros binarios. |
-| `find`    | Nos permite encontrar archivos. |
+| [`which`](https://linux.die.net/man/1/which)   | Encontrar la ruta de nuestros binarios. |    which [options] [--] programname [...]    |
+| [`find`](https://man7.org/linux/man-pages/man1/find.1p.html)    | Nos permite encontrar archivos. |   find [-H|-L] path... [operand_expression...]  |
 | `grep`    | Encontrar coincidencias de una búsqueda dentro de un archivo de texto. |
 | `wc`  | Contador de palabras. |
 | `ifconfig`    | Muestra información de nuestra red. |
